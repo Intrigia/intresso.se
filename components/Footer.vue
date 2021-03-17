@@ -5,7 +5,7 @@
       <div class="footer-nav">
         <div class="footer-nav-list footer-logo-container">
           <img class="footer-nav-logo" src="../assets/logo-big.png" alt="">
-          <p class="footer-nav-logo-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <p class="footer-nav-logo-desc">Vårt mål är att se till att så många ungdomar som möjligt läser vidare på universitetet genom att göra vetenskap lättillgängligt och roligt.</p>
         </div>
         <div class="footer-nav-list">
           <h3 class="footer-nav-title">Kontakt</h3>

@@ -28,14 +28,14 @@
       <div class="nav-contact-column">
         <ul><!-- Donera -->
           <li class=""><a href=""></a></li>
-          <li>
+          <!-- <li>
             <button class="nav-member-button" onclick="window.location.href='bli-medlem'">Bli Medlem</button>
-          </li>
+          </li> -->
         </ul>
         <img @click="menuOpen" class="nav-hamburger" src="../assets/hamburger-menu.svg" alt="hamburger_menu">
       </div>
     </div>
-    <div :class="{'menu-open': drawer}" class="menu">
+    <div @click="menuOpen" :class="{'menu-open': drawer}" class="menu">
       <div class="mobile-nav-links nav-links-column">
         <ul>
           <li><nuxt-link to="/kategori/filosofi">Filosofi</nuxt-link></li>
@@ -45,9 +45,9 @@
           <li><nuxt-link to="/kategori/historia">Historia</nuxt-link></li>
           <li><nuxt-link to="/kategori/litteratur">Litteratur</nuxt-link></li>
           <li><nuxt-link to="/om-oss">Om oss</nuxt-link></li>
-          <li><nuxt-link to="/kontakta-oss">Kontakta oss</nuxt-link></li>
+          <!-- <li><nuxt-link to="/kontakta-oss">Kontakta oss</nuxt-link></li>
           <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
-          <li><nuxt-link to="/integritetspolicy">Integritetspolicy</nuxt-link></li>
+          <li><nuxt-link to="/integritetspolicy">Integritetspolicy</nuxt-link></li> -->
         </ul>
       </div>
     </div>

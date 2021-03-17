@@ -15,7 +15,6 @@
         <p class="paragraph">Vårt mål är att se till att så många ungomar som möjligt läser vidare på universitetet. För att åstadkomma detta har vi valt att
           engagera oss i den roliga aktiviteten att skriva artiklar om intressanta vetenskapliga ämnen. Vem var den första kvinnan som flög 
           över Atlanten? Chimpanspolitik, vad kan det säga om vårat samhälle? Eller kanske den intressanta frågan: vilken påverkan har sociala medier i samhällets strukturer? 
-
         </p>
       </div>
       <div class="about-container">

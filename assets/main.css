@@ -327,6 +327,13 @@ body {
       .about-desc {
         font-size: 1.05rem;
         font-weight: normal;
+        padding: 5vh 0;
+      }
+
+      @media screen and (max-width: 800px) {
+        .about-desc {
+          padding: 0;
+        }
       }
 
       .about-button {
