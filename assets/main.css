@@ -66,7 +66,7 @@ body {
     .header-bg {
       object-fit: cover;
       object-position: 60%;
-      height: 50%;
+      height: 60%;
     }
   }
 
@@ -87,13 +87,7 @@ body {
 
   @media screen and (max-width: 500px) {
     .header-container {
-      padding: 20vw 4% 30vw 4%;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    .header-container {
-      padding: 20vw 4% 30vw 4%;
+      padding: 20vw 1% 45vw 1%;
     }
   }
 
