@@ -35,7 +35,22 @@
         <img @click="menuOpen" class="nav-hamburger" src="../assets/hamburger-menu.svg" alt="hamburger_menu">
       </div>
     </div>
-    
+    <div :class="{'menu-open': drawer}" class="menu">
+      <div class="mobile-nav-links nav-links-column">
+        <ul>
+          <li><nuxt-link to="/kategori/filosofi">Filosofi</nuxt-link></li>
+          <li><nuxt-link to="/kategori/statsvetenskap">Statsvetenskap</nuxt-link></li>
+          <li><nuxt-link to="/kategori/sociologi">Sociologi</nuxt-link></li>
+          <li><nuxt-link to="/kategori/juridik">Juridik</nuxt-link></li>
+          <li><nuxt-link to="/kategori/historia">Historia</nuxt-link></li>
+          <li><nuxt-link to="/kategori/litteratur">Litteratur</nuxt-link></li>
+          <li><nuxt-link to="/om-oss">Om oss</nuxt-link></li>
+          <li><nuxt-link to="/kontakta-oss">Kontakta oss</nuxt-link></li>
+          <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
+          <li><nuxt-link to="/integritetspolicy">Integritetspolicy</nuxt-link></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 </template>
 
@@ -47,7 +62,7 @@
 export default {
   data() {
     return {
-      drawer: false
+      drawer: true
     }
   },
   methods: {
@@ -265,9 +280,33 @@ export default {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 100%;
   height: 100%;
   z-index: 1;
-  background: white;
+  background: #FA5183;
+  transition: all ease-in-out 0.3s;
 }
+
+.menu-open {
+  left: 0;
+}
+
+.mobile-nav-links {
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 100%;
+}
+
+.mobile-nav-links ul {
+  display: block !important;
+  align-self: center;
+}
+
+.mobile-nav-links ul li {
+  display: block !important;
+  display: inline;
+  font-size: 1.5rem;
+  margin: 5% 0;
+} 
 
 </style>
