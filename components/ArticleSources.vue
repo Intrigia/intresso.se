@@ -13,7 +13,7 @@
 export default {
   data() {
     return {
-      sources: ['Nationalencyklopedin, Platon. http://www.ne.se/uppslagsverk/encyklopedi/lång/platon (hämtad 2021-03-16)', 'Nationalencyklopedin, Platon. http://www.ne.se/uppslagsverk/encyklopedi/lång/platon (hämtad 2021-03-16)', 'Nationalencyklopedin, Platon. http://www.ne.se/uppslagsverk/encyklopedi/lång/platon (hämtad 2021-03-16)', 'Nationalencyklopedin, Platon. http://www.ne.se/uppslagsverk/encyklopedi/lång/platon (hämtad 2021-03-16)']
+      sources: ['Nationalencyklopedin, Harald Godwinsson. http://www.ne.se/uppslagsverk/encyklopedi/lång/harald-godwinsson (hämtad 2021-03-22)', 'Nationalencyklopedin, Vilhelm I. http://www.ne.se/uppslagsverk/encyklopedi/lång/vilhelm-i (hämtad 2021-03-22)', 'Nationalencyklopedin, Harald Hårdråde. http://www.ne.se/uppslagsverk/encyklopedi/lång/harald-hårdråde (hämtad 2021-03-22)']
     }
   }
 }

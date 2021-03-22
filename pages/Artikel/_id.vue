@@ -15,9 +15,9 @@
     <section id="sources">
       <Sources />
     </section>
-    <section id="author-profile">
+<!--     <section id="author-profile">
       <ProfileCard :role="article.skribent" :author_name="article.author_name" :author_img="article.author_img" />
-    </section>
+    </section> -->
   </div>
 </template>
 
