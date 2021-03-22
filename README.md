@@ -23,7 +23,7 @@ Do you want to contribute to Intresso's story? Contact it@intrigia.se!
 # install dependencies
 $ npm install
 
-# serve with hot reload at NAT:3000
+# serve with hot reload at NAT:3000 // You need to add your IPv4 Adress
 $ npm run lan
 
 # build for production and launch server
