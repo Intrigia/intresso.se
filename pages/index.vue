@@ -16,7 +16,7 @@
       <div class="chosen-articles-container">
         <h2 class="title-dark">Utvalda upplagor</h2>
         <div class="article-container">
-          <ArticleCard v-for="article in chosenArticles" :key="article" :title="article.title" :desc="article.preview" :img="article.img" />
+          <ArticleCard v-for="article in chosenArticles" :key="article.id" :title="article.title" :desc="article.preview" :img="article.img" />
         </div>
       </div>
     </section>
@@ -27,7 +27,7 @@
       <div class="latest-articles-container">
         <h2 class="title-light">Våra senaste artiklar</h2>
         <div class="article-container">
-          <ArticleCard v-for="article in articles" :key="article" :title="article.title" :desc="article.preview" :img="article.img" />
+          <ArticleCard v-for="article in articles" :key="article.id" :title="article.title" :desc="article.preview" :img="article.img" />
         </div>
       </div>
     </section>
@@ -75,6 +75,7 @@
 import ArticleCard from '../components/ArticleCard.vue'
 
 export default {
+  layout: 'default',
   beforeMount() {
   },
   data() {

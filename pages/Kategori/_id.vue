@@ -26,6 +26,7 @@
 import ArticleCard from '@/components/ArticleCard.vue'
 
 export default {
+  layout: 'default',
   components: {
     ArticleCard
   },

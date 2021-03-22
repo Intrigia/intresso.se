@@ -22,10 +22,12 @@
 </template>
 
 <script>
+
 import Sources from '@/components/ArticleSources.vue'
 import ProfileCard from '@/components/ProfileCard.vue'
 
 export default{
+  layout: 'default',
   scrollToTop: true,
   components: {
     Sources,

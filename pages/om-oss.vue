@@ -36,6 +36,7 @@
 import ProfileCard from '@/components/ProfileCard.vue'
 
 export default {
+  layout: 'default',
   components: {
     ProfileCard
   },

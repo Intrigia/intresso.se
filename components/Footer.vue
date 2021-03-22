@@ -10,11 +10,11 @@
         <div class="footer-nav-list">
           <h3 class="footer-nav-title">Kontakt</h3>
           <ul class="footer-nav-links-list">
-            <li class="footer-nav-link"><a href="">@intresso</a></li>
-            <li class="footer-nav-link"><a href="">kontakt@intresso.se</a></li>
-            <li class="footer-nav-link"><a href="">Intresso</a></li>
+<!--             <li class="footer-nav-link"><a href="">@intresso</a></li> -->
+            <li class="footer-nav-link"><a href="mailto:kontakt@intresso.se">kontakt@intresso.se</a></li>
+<!--             <li class="footer-nav-link"><a href="">Intresso</a></li>
             <li class="footer-nav-link"><a href="">+46123123123</a></li>
-            <li class="footer-nav-link"><a href="">Chatta med oss!</a></li>
+            <li class="footer-nav-link"><a href="">Chatta med oss!</a></li> -->
           </ul>
         </div>
         <div class="footer-nav-list">
@@ -31,11 +31,11 @@
         <div class="footer-nav-list">
           <h3 class="footer-nav-title">Intresso</h3>
           <ul class="footer-nav-links-list">
-            <li class="footer-nav-link"><a href="">Bli medlem</a></li>
+<!--             <li class="footer-nav-link"><a href="">Bli medlem</a></li> -->
             <li class="footer-nav-link"><a href="">Om oss</a></li>
-            <li class="footer-nav-link"><a href="">FAQ</a></li>
+<!--             <li class="footer-nav-link"><a href="">FAQ</a></li>
             <li class="footer-nav-link"><a href="">Integritetspolicy</a></li>
-            <li class="footer-nav-link"><nuxt-link to="/kontakta-oss"><a>Kontakta oss</a></nuxt-link></li>
+            <li class="footer-nav-link"><nuxt-link to="/kontakta-oss"><a>Kontakta oss</a></nuxt-link></li> -->
           </ul>
         </div>
       </div>
