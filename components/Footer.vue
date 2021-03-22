@@ -20,12 +20,12 @@
         <div class="footer-nav-list">
           <h3 class="footer-nav-title">Kategorier</h3>
           <ul class="footer-nav-links-list">
-            <li class="footer-nav-link"><a href="">Filosofi</a></li>
-            <li class="footer-nav-link"><a href="">Statsvetenskap</a></li>
-            <li class="footer-nav-link"><a href="">Juridik</a></li>
-            <li class="footer-nav-link"><a href="">Sociologi</a></li>
-            <li class="footer-nav-link"><a href="">Historia</a></li>
-            <li class="footer-nav-link"><a href="">Litteratur</a></li>
+            <li class="footer-nav-link"><a><nuxt-link to="/kategori/filosofi">Filosofi</nuxt-link></a></li>
+            <li class="footer-nav-link"><a><nuxt-link to="/kategori/statsvetenskap">Statsvetenskap</nuxt-link></a></li>
+            <li class="footer-nav-link"><a><nuxt-link to="/kategori/juridik">Juridik</nuxt-link></a></li>
+            <li class="footer-nav-link"><a><nuxt-link to="/kategori/sociologi">Sociologi</nuxt-link></a></li>
+            <li class="footer-nav-link"><a><nuxt-link to="/kategori/historia">Historia</nuxt-link></a></li>
+            <li class="footer-nav-link"><a><nuxt-link to="/kategori/litteratur">Litteratur</nuxt-link></a></li>
           </ul>
         </div>
         <div class="footer-nav-list">
