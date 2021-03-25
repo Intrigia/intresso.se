@@ -88,6 +88,7 @@ export default {
   margin: 1vw 0;
   padding: 0;
   font-size: 2.2rem;
+  text-align: left;
 }
 
 .paragraph {

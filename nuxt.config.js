@@ -1,5 +1,35 @@
-module.exports = {
+var fs = require('fs');
+var path = require('path');
+
+let ENV_DEV = false;
+
+//Development Environment
+let port = 3000;
+let host = 'localhost';
+let https = false;
+
+//Production Environment
+if(ENV_DEV==false)
+{
+  port = 80; // jag bara gissar här, kolla över detta
+  host = '<domain-name>'; // antar att detta är något som passas in
+  https =  {
+    key: fs.readFileSync(path.resolve(__dirname,
+        './../../ssl/keys/<ssl-key-file-name>.key')), // är detta också dynamiskt?
+    cert: fs.readFileSync(path.resolve(__dirname,
+        './../../ssl/certs/<ssl-crt-file-name>.crt')) // är detta också dynamiskt?
+  };
+}
+
+
+export default {
   mode: 'universal',
+  server: {
+    port: port,
+    host: host,
+    timing: false,
+    https: https
+  },
   /*
   ** Headers of the page
   */
