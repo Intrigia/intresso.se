@@ -12,15 +12,14 @@ let https = false;
 if(ENV_DEV==false)
 {
   port = 80; // jag bara gissar här, kolla över detta
-  host = '<domain-name>'; // antar att detta är något som passas in
-  https =  {
+  host = 'www.intresso.se'; // antar att detta är något som passas in
+/*   https =  {
     key: fs.readFileSync(path.resolve(__dirname,
-        './../../ssl/keys/<ssl-key-file-name>.key')), // är detta också dynamiskt?
+        './../../ssl/keys/<ssl-key-file-name>.key')),
     cert: fs.readFileSync(path.resolve(__dirname,
-        './../../ssl/certs/<ssl-crt-file-name>.crt')) // är detta också dynamiskt?
-  };
+        './../../ssl/certs/<ssl-crt-file-name>.crt'))
+  }; lägg till senare */
 }
-
 
 export default {
   mode: 'universal',
@@ -28,7 +27,7 @@ export default {
     port: port,
     host: host,
     timing: false,
-    https: https
+/*     https: https lägg till senare */
   },
   /*
   ** Headers of the page
