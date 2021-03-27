@@ -1,31 +1,8 @@
-var fs = require('fs');
-var path = require('path');
-
-let ENV_DEV = false;
-
-//Development Environment
-let port = 3000;
-let host = 'localhost';
-let https = false;
-
-//Production Environment
-if(ENV_DEV==false)
-{
-  port = 80; // jag bara gissar här, kolla över detta
-  host = 'www.intresso.se'; // antar att detta är något som passas in
-/*   https =  {
-    key: fs.readFileSync(path.resolve(__dirname,
-        './../../ssl/keys/<ssl-key-file-name>.key')),
-    cert: fs.readFileSync(path.resolve(__dirname,
-        './../../ssl/certs/<ssl-crt-file-name>.crt'))
-  }; lägg till senare */
-}
-
-export default {
+module.exports = {
   mode: 'universal',
   server: {
-    port: port,
-    host: host,
+    port: 80,
+    host: 'www.intresso.se',
     timing: false,
 /*     https: https lägg till senare */
   },
@@ -94,4 +71,4 @@ export default {
     }
   },
   
-}
+};
