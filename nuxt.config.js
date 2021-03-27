@@ -1,7 +1,7 @@
 module.exports = {
   mode: 'universal',
   server: {
-    port: 80,
+    port: 69,
     host: 'www.intresso.se',
     timing: false,
 /*     https: https lägg till senare */
