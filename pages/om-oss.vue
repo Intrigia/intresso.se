@@ -19,7 +19,7 @@
       </div>
       <div class="about-container">
         <h2 class="title-dark">Vi drivs av donationer och medlemmernas välvilja</h2>
-        <p class="paragraph">För att kunna låta våra läsare ge vårt innehåll en ärlig chans utan att blanda in ekonomisk vinning har vi valt att bedriva verksamheten ideellt. Vi mottar generösa donationer av våra läsare och det är tack vare dessa som vi kan upprätthålla Partikular och våra digitala lösningar. Våra skribenter enas under en gemensam passion som driver oss att arbeta med verksamheten på vår fritid.</p>
+        <p class="paragraph">För att kunna låta våra läsare ge vårt innehåll en ärlig chans utan att blanda in ekonomisk vinning har vi valt att bedriva verksamheten ideellt. Vi mottar generösa donationer av våra läsare och det är tack vare dessa som vi kan upprätthålla Intresso och våra digitala lösningar. Våra skribenter enas under en gemensam passion som driver oss att arbeta med verksamheten på vår fritid.</p>
       </div>
       <div class="about-container">
         <h2 class="title-dark">Vi är just nu ett team av {{ volunteers.length }} engagerade ungdomar</h2>
@@ -45,16 +45,16 @@ export default {
       volunteers: [
         {
           id: 1,
-          name: "Daniel Öhman",
-          role: "Chefredaktör för Intresso och Webbutvecklare för Intrigia Student Media",
-          desc: "Jag gillar att lära mig om nya saker för att sedan skapa något. Framförallt älskar jag att förenkla svåra koncept!",
-          img: "https://lh3.googleusercontent.com/fife/ABSRlIqStw-DICm52emysuCLwkrXrH506eoqNEeRzy2Q4vwJcXizJLUH_Qny3vP657V0dSPHw2eQLBE1bE7qsNq45MN4JzHVywA6hAUjDwq2SpBCJq9d7Cdr-lA8rtQJ2QNHpC4Nke2E_v3FnDhQZ_4RHMrnqcAKIdq3jmynBeKx9X0ewhmUCWv_2ThGsWBCvsZ_-HRpS8OQmCpMLz4PmWTCqPAaI5D7l94rXPVAJZ7gndhwq3fo861Yy8MsizPy4kiuqiCaH43kV0yKc8SJEodDEtAXGpprnKeILqxiWXfpoOSyZTBfparf1L_hYiE1YDx_9AoCw7GMxuHBHE1slRKvBg7ucTOFsltXsE420lDHj0SDkO7gowmyJjmIZBJRxQjKGBSmkVAWyBbdcIZzOOt_eLIDDUmVXdLmf8RN01vmAzEcYDAeN1q23N2zoa4ef6uD2cPUzPGiizmfkIlg416S2f0_yCYSMYo4inniEiF4lKGVHt4M3aAIElLB9qhVEFVSdk_aivZ4vYdzDyM6YF9pv0wI0LZuMKotQZknJhrZ8EY4solD74uk60WHTEbjEahC5547xxjbEuv6SgViONMeQOkFM9hXVdk-ueJyGxN0BaL2GkCI5l9irCbKDUu_8t9vpJk1jkQPsVuNN6jKNRaJEUSD19Smgx6ZEN9iXCOD2IYPGd0FtIcqKzmxWflzA4-XCwT_tQve-BnQLqDMFTwrcXimMbfn4ToAjXSbnz2MstRPABs=s400"
+          name: "Elin-Sofie Wandahl",
+          role: "Chefredaktör",
+          desc: "",
+          img: "https://afmnoco.com/wp-content/uploads/2019/07/74046195_s.jpg"
         },
         {
           id: 2,
           name: "Olle Nilsson",
           role: "Skribent",
-          desc: "Jag gillar att lära mig om nya saker för att sedan skapa något. Framförallt älskar jag att förenkla svåra koncept!",
+          desc: "För min del gäller filosofi för hela slanten. I hopp om ett liv fyllt av visdom",
           img: "https://lh3.googleusercontent.com/a-/AOh14GioCtDjsD5KhAFfUuA5wnCgvIeJPpZIrK4guEKT=s400"
         },
         {
@@ -62,8 +62,15 @@ export default {
           name: "Ludvig Wallman",
           role: "Skribent",
           desc: "Jag gillar att lära mig om nya saker för att sedan skapa något. Framförallt älskar jag att förenkla svåra koncept!",
-          img: "https://scontent.fmmx3-1.fna.fbcdn.net/v/t1.0-1/p100x100/75478423_1211110389075690_287639689299492864_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=7206a8&_nc_ohc=ucbzWn7z_t0AX8cDlp9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fmmx3-1.fna&tp=6&oh=2ba248b9e2b6a41dbfa7b4062d6cf23e&oe=60766E2F"
-        }
+          img: "https://i.imgur.com/sAdEpKY.jpegç"
+        },
+        {
+          id: 4,
+          name: "Daniel Öhman",
+          role: "Grundare av Intresso och Mjukvaruutvecklare hos Intrigia Student Media",
+          desc: "Jag gillar att lära mig om nya saker för att sedan skapa något. Framförallt älskar jag att förenkla svåra koncept!",
+          img: "https://lh3.googleusercontent.com/fife/ABSRlIqStw-DICm52emysuCLwkrXrH506eoqNEeRzy2Q4vwJcXizJLUH_Qny3vP657V0dSPHw2eQLBE1bE7qsNq45MN4JzHVywA6hAUjDwq2SpBCJq9d7Cdr-lA8rtQJ2QNHpC4Nke2E_v3FnDhQZ_4RHMrnqcAKIdq3jmynBeKx9X0ewhmUCWv_2ThGsWBCvsZ_-HRpS8OQmCpMLz4PmWTCqPAaI5D7l94rXPVAJZ7gndhwq3fo861Yy8MsizPy4kiuqiCaH43kV0yKc8SJEodDEtAXGpprnKeILqxiWXfpoOSyZTBfparf1L_hYiE1YDx_9AoCw7GMxuHBHE1slRKvBg7ucTOFsltXsE420lDHj0SDkO7gowmyJjmIZBJRxQjKGBSmkVAWyBbdcIZzOOt_eLIDDUmVXdLmf8RN01vmAzEcYDAeN1q23N2zoa4ef6uD2cPUzPGiizmfkIlg416S2f0_yCYSMYo4inniEiF4lKGVHt4M3aAIElLB9qhVEFVSdk_aivZ4vYdzDyM6YF9pv0wI0LZuMKotQZknJhrZ8EY4solD74uk60WHTEbjEahC5547xxjbEuv6SgViONMeQOkFM9hXVdk-ueJyGxN0BaL2GkCI5l9irCbKDUu_8t9vpJk1jkQPsVuNN6jKNRaJEUSD19Smgx6ZEN9iXCOD2IYPGd0FtIcqKzmxWflzA4-XCwT_tQve-BnQLqDMFTwrcXimMbfn4ToAjXSbnz2MstRPABs=s400"
+        },
       ]
     }
   }
@@ -97,7 +104,7 @@ export default {
 }
 
 #about-us {
-  padding: 10vw 29vw 10vw 29vw !important;
+  padding: 10vw 22vw 10vw 22vw !important;
   display: grid !important;
 }
 
