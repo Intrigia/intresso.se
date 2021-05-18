@@ -61,7 +61,7 @@ export default {
   .card {
     grid-template-columns: 1fr;
     grid-template-rows: 300px 1fr;
-    width: 30vw;
+    width: 35vw;
   }
 }
 
@@ -120,6 +120,13 @@ a {
 .information {
   padding: 4%;
   display: grid;
+}
+ 
+@media screen and (max-width: 1000px) {
+  .information {
+    padding-top: 15% !important;
+    padding: 8%;
+  }
 }
 
   .information-role {

@@ -41,7 +41,6 @@ export default{
     parseText() {
       var i = 0;
       var blockList = this.article.article_text
-
     },
     imageVar() {
       return {
@@ -221,7 +220,8 @@ p {
 
 /* Article Text */
 #article-text {
-  padding: 0 30vw;
+  padding: 0 25vw;
+  color: #34383E;
   font-weight: 400;
   font-size: 1.0625rem;
 }
@@ -276,5 +276,8 @@ p {
 
 .article_text >>> .paragraph {
   font-size: 5rem !important;
+}
+.article_text >>> img {
+  text-align: center;
 }
 </style>

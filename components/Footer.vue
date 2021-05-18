@@ -40,13 +40,24 @@
         </div>
       </div>
       <div class="footer-credits">
-        <p class="footer-credit-text credit-left">© 2021 Intresso, Alla rättigheter förbehållna.</p>
+        <p class="footer-credit-text credit-left">© {{ whatYear }} Intresso, Alla rättigheter förbehållna.</p>
         <p class="footer-credit-text credit-middle">Organisationsnummer: 802530-4257</p>
         <p class="footer-credit-text credit-right">Hemsida utvecklad av <a target="_blank" href="https://www.linkedin.com/in/ohmandaniel/">Daniel Öhman</a></p>
       </div>
     </footer>
   </div>
 </template>
+
+<script>
+  export default {
+    computed: {
+      whatYear() {
+        return new Date().getFullYear()
+      }
+    }
+  }
+</script>
+
 
 <style scoped>
 /* #Footer */
