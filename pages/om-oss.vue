@@ -68,7 +68,7 @@ export default {
           id: 4,
           name: "Daniel Öhman",
           role: "Grundare av Intresso och Mjukvaruutvecklare hos Intrigia Student Media",
-          desc: "Jag gillar att lära mig om nya saker för att sedan skap",
+          desc: "Jag gillar att lära mig om nya saker för att sedan skapa saker",
           img: "https://lh3.googleusercontent.com/fife/ABSRlIqStw-DICm52emysuCLwkrXrH506eoqNEeRzy2Q4vwJcXizJLUH_Qny3vP657V0dSPHw2eQLBE1bE7qsNq45MN4JzHVywA6hAUjDwq2SpBCJq9d7Cdr-lA8rtQJ2QNHpC4Nke2E_v3FnDhQZ_4RHMrnqcAKIdq3jmynBeKx9X0ewhmUCWv_2ThGsWBCvsZ_-HRpS8OQmCpMLz4PmWTCqPAaI5D7l94rXPVAJZ7gndhwq3fo861Yy8MsizPy4kiuqiCaH43kV0yKc8SJEodDEtAXGpprnKeILqxiWXfpoOSyZTBfparf1L_hYiE1YDx_9AoCw7GMxuHBHE1slRKvBg7ucTOFsltXsE420lDHj0SDkO7gowmyJjmIZBJRxQjKGBSmkVAWyBbdcIZzOOt_eLIDDUmVXdLmf8RN01vmAzEcYDAeN1q23N2zoa4ef6uD2cPUzPGiizmfkIlg416S2f0_yCYSMYo4inniEiF4lKGVHt4M3aAIElLB9qhVEFVSdk_aivZ4vYdzDyM6YF9pv0wI0LZuMKotQZknJhrZ8EY4solD74uk60WHTEbjEahC5547xxjbEuv6SgViONMeQOkFM9hXVdk-ueJyGxN0BaL2GkCI5l9irCbKDUu_8t9vpJk1jkQPsVuNN6jKNRaJEUSD19Smgx6ZEN9iXCOD2IYPGd0FtIcqKzmxWflzA4-XCwT_tQve-BnQLqDMFTwrcXimMbfn4ToAjXSbnz2MstRPABs=s400"
         },
       ]
