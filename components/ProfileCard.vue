@@ -118,7 +118,7 @@ a {
 
 /* Information */
 .information {
-  padding: 4%;
+  padding: 3%;
   display: grid;
 }
  

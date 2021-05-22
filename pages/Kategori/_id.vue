@@ -65,6 +65,13 @@ export default {
           "img": "https://i.imgur.com/fqyuZhN.jpg",
           "category": "historia"
         },
+        {
+          "id": 2,
+          "title": "Den nihilistiska hopplösheten",
+          "preview": "Du är endast en simpel varelse, iklädd fåniga kläder med ännu fånigare vanor...",
+          "img": "https://images.pexels.com/photos/5473214/pexels-photo-5473214.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+          "category": "filosofi"
+        }
       ],
     }
   }
