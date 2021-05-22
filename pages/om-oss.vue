@@ -48,7 +48,7 @@ export default {
           name: "Elin-Sofie Wandahl",
           role: "Chefredaktör",
           desc: "Jag heter Elin-Sofie Lassen Wandahl och är Chefredaktör för Intresso. Sedan barnsben har jag varit intresserad av historia och varför vår värld ser ut som den gör idag. Med bakgrund i detta intresset finner jag det idag väldigt intressant med internationella relationer och politik, samt juridik, och hur människans historia har påverkat detta.",
-          img: "https://i.imgur.com/hU3GQpY.jpeg"
+          img: "https://i.imgur.com/ZPxdf8r.jpg"
         },
         {
           id: 2,
