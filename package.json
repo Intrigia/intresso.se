@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
-    "lan": "nuxt --hostname 192.168.0.36 --port 3000",
+    "lan": "nuxt --hostname [insert nat] --port 3000",
     "build": "nuxt build",
     "start": "cross-env NODE_ENV=production node server/index.js",
     "generate": "nuxt generate",
