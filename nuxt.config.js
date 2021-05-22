@@ -1,5 +1,11 @@
 module.exports = {
   mode: 'universal',
+  server: {
+    port: 3030,
+    host: 'www.intresso.se',
+    timing: false,
+/*     https: https lägg till senare */
+  },
   /*
   ** Headers of the page
   */
@@ -65,4 +71,4 @@ module.exports = {
     }
   },
   
-}
+};
